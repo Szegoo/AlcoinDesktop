@@ -1,0 +1,1 @@
+C:\Users\sakac\source\repos\ShopApp\ShopApp\ShopApp.csproj;x64
