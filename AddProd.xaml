@@ -11,6 +11,18 @@
     <Grid>
         <TextBlock Text="Add Product" FontSize="36px" HorizontalAlignment="Center"
                    Margin="100"/>
-        
+        <TextBox Text="Ime proizvoda" HorizontalAlignment="Center"
+                 Name="prodName"
+                 VerticalAlignment="Top" FontSize="30px" Height="71" Width="567" Margin="0,264,0,0"/>
+        <TextBox Text="Opis proizvoda" HorizontalAlignment="Center"  Name="prodDescription"
+                 VerticalAlignment="Top" FontSize="30px" Height="161" Width="567" Margin="0,379,0,0"/>
+        <TextBox Text="Cena proizvoda" HorizontalAlignment="Center" Name="prodPrice"
+                 VerticalAlignment="Top" FontSize="30px" Height="71" Width="567" Margin="0,582,0,0"/>
+        <Button Content="Postavi" FontSize="30px" Margin="0,0,0,100"
+                Click="AddProduct"
+                 VerticalAlignment="Bottom" Height="68" Width="238" HorizontalAlignment="Center"/>
+        <TextBlock FontSize="36px" HorizontalAlignment="Center" 
+                   Text="{x:Bind message}" Foreground="Green"
+                   VerticalAlignment="Bottom" Margin="0,0,0,20"/>
     </Grid>
 </Page>

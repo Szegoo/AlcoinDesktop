@@ -1,4 +1,4 @@
-﻿<Page
+﻿<Page x:ConnectionId='1'
     x:Class="ShopApp.AddProd"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -11,7 +11,19 @@
     <Grid>
         <TextBlock Text="Add Product" FontSize="36px" HorizontalAlignment="Center"
                    Margin="100"/>
-        
+        <TextBox x:ConnectionId='2' Text="Ime proizvoda" HorizontalAlignment="Center"
+                 Name="prodName"
+                 VerticalAlignment="Top" FontSize="30px" Height="71" Width="567" Margin="0,264,0,0"/>
+        <TextBox x:ConnectionId='3' Text="Opis proizvoda" HorizontalAlignment="Center"  Name="prodDescription"
+                 VerticalAlignment="Top" FontSize="30px" Height="161" Width="567" Margin="0,379,0,0"/>
+        <TextBox x:ConnectionId='4' Text="Cena proizvoda" HorizontalAlignment="Center" Name="prodPrice"
+                 VerticalAlignment="Top" FontSize="30px" Height="71" Width="567" Margin="0,582,0,0"/>
+        <Button x:ConnectionId='5' Content="Postavi" FontSize="30px" Margin="0,0,0,100"
+                                  
+                 VerticalAlignment="Bottom" Height="68" Width="238" HorizontalAlignment="Center"/>
+        <TextBlock x:ConnectionId='6' FontSize="36px" HorizontalAlignment="Center" 
+                                           Foreground="Green"
+                   VerticalAlignment="Bottom" Margin="0,0,0,20"/>
     </Grid>
 </Page>
 
