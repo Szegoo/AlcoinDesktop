@@ -9,23 +9,28 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock HorizontalAlignment="Center" Height="90" 
+        <Button x:Name="AddProdBtn" Content="Add Product" 
+         FontSize="26px"
+         Margin="40,38,0,0" VerticalAlignment="Top" Height="56" Width="272" 
+         Click="Add_Prod"/>
+        <Button Content="Add Category" 
+         FontSize="26px"
+         Margin="851,38,0,0" VerticalAlignment="Top" Height="56" Width="272"/>
+        <Button Content="Add Advertisement" 
+         FontSize="26px"
+         Margin="441,38,0,0" VerticalAlignment="Top" Height="56" Width="272"/>
+        <Button Content="Product Centre" 
+         FontSize="26px"
+         Margin="1256,38,0,0" VerticalAlignment="Top" Height="56" Width="272"/>
+        <TextBlock HorizontalAlignment="Left" Height="90" 
                    Text="Alcoin Shop" TextWrapping="Wrap" 
                    FontSize="50" VerticalAlignment="Top"
-                   Width="295" Margin="0,27,0,0" />
-
-        <ListView ItemsSource="{x:Bind Products}"
-        HorizontalAlignment="Center"
-        VerticalAlignment="Center">
-            <ListView.ItemTemplate>
-                <DataTemplate x:DataType="local:Product">
-                    <StackPanel>
-                        <TextBlock FontSize="30px" Text="{x:Bind Name}"/>
-                        <Image Width="200" Source="{x:Bind Image}"/>
-                        <TextBlock FontSize="24px" Text="{x:Bind Price}" FontWeight="Bold"/>
-                    </StackPanel>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+                   Width="295" Margin="1600,22,0,0" RenderTransformOrigin="0.851,0.633" />
+        <Frame Grid.Row="1"
+               x:Name="frame"
+               Margin="0,0,0,50"
+               VerticalAlignment="Bottom"
+               HorizontalAlignment="Center" 
+               Width="1600" Height="800"/>
     </Grid>
 </Page>

@@ -44,3 +44,13 @@ C:\Users\sakac\source\repos\ShopApp\ShopApp\obj\x86\Debug\MultipleQualifiersPerD
 C:\Users\sakac\source\repos\ShopApp\ShopApp\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\sakac\source\repos\ShopApp\ShopApp\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
 C:\Users\sakac\source\repos\ShopApp\ShopApp\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\sakac\source\repos\ShopApp\ShopApp\bin\x86\Debug\AddProd.xbf
+C:\Users\sakac\source\repos\ShopApp\ShopApp\obj\x86\Debug\AddProd.g.i.cs
+C:\Users\sakac\source\repos\ShopApp\ShopApp\obj\x86\Debug\AddProd.g.cs
+C:\Users\sakac\source\repos\ShopApp\ShopApp\obj\x86\Debug\AddProd.xaml
+C:\Users\sakac\source\repos\ShopApp\ShopApp\obj\x86\Debug\AddProd.xbf
+C:\Users\sakac\source\repos\ShopApp\ShopApp\bin\x86\Debug\Products.xbf
+C:\Users\sakac\source\repos\ShopApp\ShopApp\obj\x86\Debug\Products.g.i.cs
+C:\Users\sakac\source\repos\ShopApp\ShopApp\obj\x86\Debug\Products.g.cs
+C:\Users\sakac\source\repos\ShopApp\ShopApp\obj\x86\Debug\Products.xaml
+C:\Users\sakac\source\repos\ShopApp\ShopApp\obj\x86\Debug\Products.xbf

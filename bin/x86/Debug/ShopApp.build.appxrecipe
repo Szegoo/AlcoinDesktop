@@ -73,8 +73,14 @@
     <AppxPackagedFile Include="C:\Users\sakac\source\repos\ShopApp\ShopApp\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sakac\source\repos\ShopApp\ShopApp\bin\x86\Debug\AddProd.xbf">
+      <PackagePath>AddProd.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sakac\source\repos\ShopApp\ShopApp\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sakac\source\repos\ShopApp\ShopApp\bin\x86\Debug\Products.xbf">
+      <PackagePath>Products.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
